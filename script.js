@@ -116,9 +116,9 @@ const getPrprtyApiTv = async () => {
 
       const selectOption = document.createElement("option");
       if (element.season >= 10) {
-        selectOption.innerHTML = `S0${element.season}E0${element.number}-${element.name}`;
+        selectOption.innerHTML = `S${element.season}E0${element.number}-${element.name}`;
       } else if (element.number >= 10) {
-        selectOption.innerHTML = `S${element.season}E${element.number}-${element.name}`;
+        selectOption.innerHTML = `S0${element.season}E${element.number}-${element.name}`;
       } else {
         selectOption.innerHTML = `S0${element.season}E0${element.number}-${element.name}`;
       }

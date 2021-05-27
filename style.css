@@ -1,0 +1,17 @@
+body {
+  background-color: #e5c5b5;
+}
+.navbar {
+  text-align: center;
+}
+a:hover {
+  color: #641220;
+  font-weight: bold;
+  font-size: large;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}

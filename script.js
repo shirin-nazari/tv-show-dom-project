@@ -118,7 +118,7 @@ const getPrprtyApiTv = async () => {
       if (element.season >= 10) {
         selectOption.innerHTML = `S0${element.season}E0${element.number}-${element.name}`;
       } else if (element.number >= 10) {
-        selectOption.innerHTML = `S0${element.season}E0${element.number}-${element.name}`;
+        selectOption.innerHTML = `S${element.season}E${element.number}-${element.name}`;
       } else {
         selectOption.innerHTML = `S0${element.season}E0${element.number}-${element.name}`;
       }
@@ -174,6 +174,7 @@ inputSearch.addEventListener("keyup", () => {
   label.style.width = "250px";
 });
 inputSearch.style.width = "500px";
+inputSearch.style.outline = "none";
 ////////////////////////////////////////////end search///////////////////////////////////////////////////
 ///////////////////////////////////////////select///////////////////////////////////////////////////////
 let options = document.getElementsByClassName("classOption");

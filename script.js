@@ -151,7 +151,7 @@ inputSearch.style.border = "1px solid #780116";
 inputSearch.addEventListener("keyup", () => {
   let inputSrch = inputSearch.value.toLowerCase();
   let countener = 0;
-  aHome.href = "http://127.0.0.1:5500/index.html";
+  aHome.href = "https://imd-shirin-nazari-tv.netlify.app/";
   aHome.style.color = "#f8ffe5";
   for (let index = 0; index < divCartMain.length; index++) {
     let searchDiv = divCartMain[index].innerHTML
@@ -179,7 +179,7 @@ inputSearch.style.width = "500px";
 let options = document.getElementsByClassName("classOption");
 selectHeader.addEventListener("change", () => {
   let optionsSe = selectHeader.options[selectHeader.selectedIndex].text;
-  aHome.href = "http://127.0.0.1:5500/index.html";
+  aHome.href = "https://imd-shirin-nazari-tv.netlify.app/";
   aHome.style.color = "#f8ffe5";
   for (let index = 0; index < selectHeader.length; index++) {
     console.log(options[index].value);

@@ -92,6 +92,7 @@ const getPrprtyApiTv = async () => {
         pCart.style.fontWeight = "bold";
         pCart.classList = "tagP";
         divCart.style.height = "530px";
+        divCart.style.transition = "transform .5s";
         divCart.style.transform = " translate(10px, 5%)";
         h2Titer.style.backgroundColor = "white";
         h2Titer.style.fontSize = "30px";
@@ -102,6 +103,7 @@ const getPrprtyApiTv = async () => {
         h2Titer.style.backgroundColor = "#fae1dd";
         divCart.style.color = "#373a40";
         pCart.style.color = "#373a40";
+
         divCart.style.transform = " translate(0px, 0%)";
         h2Titer.style.fontSize = "25px";
         divCart.style.height = "500px";
